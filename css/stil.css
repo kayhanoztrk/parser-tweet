@@ -1,0 +1,39 @@
+/* Sıfırlamalar */
+body{margin: 0; padding: 0; font: 12px/19px Segoe UI; background: #dcf6ff}
+ul,li,table,tr,td,span,input,ol,form,img,a{margin: 0; padding: 0; list-style-type: none; border: 0; text-decoration: none}
+:focus{outline: none}
+.temiz{clear: both}
+
+@import url("login.css");
+
+/* Header */
+#header{height: 40px; padding: 5px; background-image: url("../images/header_bg.png")}
+.header{margin: 0 auto; margin-top: 8px; text-align: center; color: #fff}
+.yazi{font: 15px Segoe UI; color: #30fffd;}
+
+/* Genel */
+#genel{width: 980px; margin: 5px auto}
+	
+	/* Sol */
+	#sol{float: left; width: 240px; padding: 5px; background: #cbf2ff; margin-top: 20px; border: 1px solid #7edeff; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px}
+	.img{float: left; border: 1px solid #ddd; margin-bottom: 10px}
+	.img img{}
+	.avatar_sag span{color: #7c7c7c}
+	
+	#sag{float: right; width: 710px; padding: 5px; background: #cbf2ff; margin-top: 20px; border: 1px solid #7edeff; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px}
+	
+
+	#takvim{float: left}
+	#tsag{float: right; margin-left: 5px}
+	
+	#button{}
+	.tweet_buton{color: #fff; margin-top: 10px; margin-left: 35px; cursor: pointer; font: 12px Segoe UI; padding: 5px; background: #527ed8; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px}
+	.tweet_buton:hover{background: #2052b8}
+	
+	#twit-list{float: right; width: 700px}
+	
+	#twit-list ul li{padding: 8px; border: 1px solid #7edeff; margin-top: 20px; background: #cbf2ff; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px}
+	#footer {position: fixed; bottom: 0;  padding: 5px; width: 100%; height:40px; background: url(../images/header_bg.png)}
+	.footer{text-align: center; color: #fff}
+	
+	.tarih{width: 210px; padding: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #f1f1f1; border: 1px solid #ddd}
